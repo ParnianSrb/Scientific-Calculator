@@ -1,0 +1,28 @@
+text = '89.3+45-62.9'
+operators_list = ['+', '-', 'x', '/']
+
+text_list = []
+final = []
+
+for operator in operators_list:
+    if operator in text:
+        # print(text.split(operator, 2))
+        text_list = text.split(operator, 2)
+        final.append(text_list[0])
+        final.append(operator)
+        print(text_list)
+        text = text_list[1]
+        print(text)
+final.append(text_list[1])
+print(final)
+-------------------------------------------
+number = '89.3*45.9-62.'
+operators = '+-*/'
+i = -1
+while number[i] not in operators:
+    i = i - 1
+if '.' not in number[i: -1]:
+    number = number + '.'
+    print(number)
+else:
+    print('Oops!!')
