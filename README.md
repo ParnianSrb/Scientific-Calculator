@@ -10,6 +10,8 @@ Installation instructions:
 To use python I have tried coding with PyCharm which has been easy and straightforward. Here is the link to download and install: https://www.jetbrains.com/pycharm/download/?section=windows / https://www.jetbrains.com/help/pycharm/installation-guide.html#snap
 
 The Calculator project is popular mostly because students start their coding practice with it, so I gave it a try, however I have several problems that I mention here:
-1.ans Button: The answer Button does not work correctly, I also think its not so beneficial either because I have the Equal Sign Button.
-2.Memory Buttons: m, MC, MR and M+ Buttons do not work properly, but have not spent enough time to get them right. 
+
+1. ans Button: The answer Button does not work correctly, I also think its not so beneficial either because I have the Equal Sign Button.
+2. Memory Buttons: m, MC, MR and M+ Buttons do not work properly, but have not spent enough time to get them right.
+
 In order to solve the second problem, I will try to fix those buttons, and lastly, update the project.
